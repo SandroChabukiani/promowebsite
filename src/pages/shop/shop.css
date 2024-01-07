@@ -1,0 +1,63 @@
+.products{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  padding-bottom: 10%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31px;
+  width: 205px;
+  height: 530px;
+}
+.perv{
+  display: flex;
+  width: 199.5px;
+  align-items: flex-start;
+  gap: 7.5px;
+  border-radius: 18.75px;
+  border: 1.5px solid var(--Text-main-color, #FFF);
+}
+.card-img{
+  width: 186.88px;
+  height: 331.693px;
+  /* position: absolute; */
+  left: 4.967px;
+  top: 4.52px;
+}
+.dvo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.secc{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text-title{
+  color: var(--Text-main-color, #FFF);
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.text-description{
+  color: var(--Text-main-color, #FFF);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-info{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
